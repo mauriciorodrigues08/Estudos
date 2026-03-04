@@ -1,0 +1,23 @@
+-- VALOR DE SAÍDA ESTILIZADO --
+-> para printar um valor ignorando os 0 a esquerda, utilizamos o Z
+
+-> exemplo: printando a média das notas  
+  
+  DATA DIVISION.
+  WORKING-STORAGE SECTION.
+  01 NOTA1  PIC 99V9.
+  01 NOTA2  PIC 99V9.
+  01 NOTA3  PIC 99V9.
+  01 MEDIA  PIC Z9.9.
+
+  ** repare que nas variáveis de entrada, a separação decimal é representada por 'V'
+  ** já na variável de saída, a separação decimal é representada pelo próprio '.'
+
+
+-- REALIZANDO CALCULOS --
+-> o cálculo é feito através do comando COMPUTE
+
+-> exemplo: seguindo o exemplo acima, o calculo da media se daria por:
+  PROCEDURE DIVISION.
+
+  COMPUTE MEDIA = (NOTA1 + NOTA2 + NOTA3) / 3.

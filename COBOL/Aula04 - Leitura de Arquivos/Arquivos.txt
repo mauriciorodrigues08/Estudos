@@ -1,0 +1,65 @@
+-- DECLARAÇÃO DE ARQUIVOS --
+-> Para utilizar um arquivo dentro do programa, devemos declará-lo
+  . a declaração se dá na ENVIRONMENT DIVISION, por meio da seção INPUT-OUTPUT SECTION
+  . para possibilitar a manipulação do arquivo pelo COBOL utilizamos a FILE-CONTROL
+  . exemplO: declarando um arquivo de contas bancarias
+
+  ENVIRONMENT DIVISION.
+  INPUT-OUTPUT SECTION.
+  FILE-CONTROL.
+    SELECT CONTAS ASSIGNID TO "CONTAS.DATA"
+      ORGANIZATION IS LINE SEQUENTIAL
+
+  . em resumo, o que essa sequência de comandos está dizendo é:
+  "Declare o arquivo externo "CONTAS.DATA" como CONTAS dentro do ambiente COBOL. O arquivo é organizado em linhas sequenciais, ou seja, cada linha contém uma informação".
+
+
+-- COMANDO SELECT --
+-> Associando o arquivo
+  . SELECT associa o nome lógico do arquivo no programa ao nome físico no sistema de arquivos
+  . ASSIGN TO define o nome físico do arquivo, ou seja, seu nome real no sistema operacional
+  . ex: associa o nome CONTAS ao nome do arquivo físico "CONTAS.DATA", no exemplo acima
+
+-> Organização do arquivo
+  . ORGANIZATION mostra como os dados no arquivo estão organizados
+  . LINE SEQUENTIAL significa que o arquivo é baseado em linhas, como um arquivo de texto comum
+
+
+-- MANIPULAÇÃO DE ARQUIVOS --
+-> Para acessar as informações de um arquivo, teremos uma nova seção na DATA DIVISION
+  . agora, além da WORKING-STORAGE SECTION, que trata variáveis locais do programa, teremos a FILE SECTION.
+  . na FILE SECTION iremos:
+    1. abrir os arquivos (comando FD)
+    2. criar variáveis de manipulação das informações do arquivo
+
+  . no exemplo acima, ficaria assim:
+
+  DATA DIVISION.
+  FILE SECTION.
+  FD CONTAS.
+  01  DETALHES-CONTA.
+    05 NOME.
+      10 PRIMEIRO-NOME   PIC X(20).
+      10 ULTIMO-NOME     PIC X(20).
+
+    05 GENERO            PIC X.
+  
+    05 CONTA
+      10 NUMERO-CARTAO   PIC 9(12).
+      10 DATA-VALIDADE   PIC 9(8).
+      10 CVV             PIC X(3).
+
+  WORKING-STORAGE SECTION.
+  01 CONTADOR-GENEROS.
+    05 TOTAL-HOMENS      PIC ZZ9.
+    05 TOTAL-MULHERES    PIC ZZ9.
+
+  01 TOTAL-VENCIDOS      PIC ZZ9.
+
+  01 LEITURA-FINALIZADA  PIC X VALUE "N". 
+
+  . observe que a parte que trata arquivos deve ser completamente separada da parte que trata variáveis
+  . a cada iteração em que uma linha do arquivo for lida, uma informação DETALHES-CONTA será tratada
+  . existem variáveis do arquivo (recebem informações do arquivos)
+  . existem variáveis locais (fazem a manipulação das informações coletadas), ex: contagem de homens/mulheres
+  . a variável LEITURA-FINALIZADA vai servir para verificar se ainda existem mais linhas do arquivos para serem lidas

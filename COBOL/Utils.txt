@@ -1,0 +1,35 @@
+- FUNÇÕES UTEIS PARA PROGRAMAÇÃO EM COBOL -
+-> DISPLAY
+  . Função para printar na saída
+
+-> ACCEPT
+  . Função para receber o valor de uma variável
+  . Somente ACCEPT recebe da entrada padrão
+  . ACCEPT FROM <biblioteca> aceita de um dado interno
+
+-> COMPUTE
+  . Utilizado para a realização de calculos
+  . Ex: COMPUTE IMC = PESO / (ALTURA ** 2).
+    * salva o resultado de PESO / (ALTURA ** 2) na variável IMC
+
+-> PERFORM UNTIL <condição>
+  . Laço de repetição
+  . Fica no loop até que a condição seja satisfeita
+  . Ex: PERFORM UNTIL QTD > 10
+    * vai realizar os comandos da repetição até que a quantidade seja maior que 10
+
+-> INSPECT
+  . Faz o map de uma veriável realizando uma ação
+  . Ex: INSPECT NOME REPLACING ALL " " BY LOW-VALUES
+    * faz o map do nome trocando todos os " " por valores "vazios"
+
+-> OPEN / CLOSE
+  . Utilizado para abertura e fechamento de arquivos
+  . Ex: OPEN INPUT ARQUIVO ... CLOSE ARQUIVO
+
+-> READ INTO
+  . Utilizado para ler as informações de um arquivo e salvá-las em uma variável
+  . Ex: READ ARQUIVO INTO DETALHAMENTO
+    * salva as informações daquela linha do arquivo dentro da variável detalhamento
+
+->

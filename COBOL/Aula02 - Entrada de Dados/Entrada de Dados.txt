@@ -1,0 +1,57 @@
+-- VARIÁVEIS --
+-> as variáveis são criadas na DATA DIVISION, com a seção WORKING-STORAGE
+  . abaixo da DATA DIVISION deve ser declarado "WORKING-STORAGE SECTION."
+
+-> para as variáveis, é utilizado a declaração por níveis
+  . sintaxe: <nivel> <nome da variável> <tipo da variável>
+
+  . ex: criação de duas variáveis (uma simples e outra estruturada)
+
+  DATA DIVISION.
+  
+  WORKING-STORAGE SECTION.
+  01 ID PIC A(020)
+  ** essa é uma variável de nível 1 e, no máximo, 20 alfanuméricos, com nome ID
+
+  01 DATA.
+    05 ANO PIC 9(004)
+    05 MES PIC 9(002)
+    05 DIA PIC 9(002)
+
+  ** nesse segundo caso, a variável DATA possui 3 "campos"
+  ** ela pode ser usada como condunto (DATA) ou cada campo separado (ANO, MES OU DIA)
+  ** semelhante a STRUCT do C
+
+
+-- ENTRADA DE DADOS --
+-> a entrada de dados em COBOL pode ser feita tanto de duas formas:
+  . automática: pegando dados do sistema
+  . manual: fornecida pelo usuário através do terminal
+
+-> comandos para entrada de dados
+  . para a entrada de dados manual, utilizamos "ACCEPT <variavel>"
+  ** esse comando vai pegar o que for inserido na entrada padrão e atribuir a variável
+
+  . para a entrada de dados automática, utilizamos "ACCEPT <variavel> FROM <biblioteca>
+  ** esse comando vai pegar uma informação da biblioteca informada e atribuir a variável
+
+
+-- TIPOS DE DADOS --
+-> Ao declarar uma variável, utilizamos a cláusula PIC (de picture) para atribuir um valor para aquela variavel
+
+-> Os tipos de variável em COBOl são
+  . x: campo alfanumérico
+  ** ex: 01 nickname PIC x(020) 
+
+  . 9: campo numérico
+  ** ex: 01 idade PIC9(003)
+
+  . A: alfabético
+  ** ex: 01 nome PIC A(20)
+
+  . V: divisão da parte inteira para a parte decimal, utilizado apenas em campos numéricos
+  ** ex: 01 preco PIC ZZZ9V99
+  ** o V seria a "posição da vírgula"
+  ** o caracter Z representa um inteiro que suprime o 0 a esquerda
+
+  . S: Sinal operacional, utilizado apenas em campos numéricos

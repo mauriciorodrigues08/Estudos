@@ -1,0 +1,53 @@
+-- ESTRUTURA BÁSICA DE CÓDIGOS EM COBOL --
+-> 6 primeiras colunas são destinadas a numeração da linha (não obrigatório digitar)
+
+-> coluna 7 é tratada como especial
+  . * indica comentário
+  . - indica a continuação de uma string
+
+-> o programa em si começa a partir da coluna 8
+
+-> por convenção, os programas COBOL são escritos em letra maiúscula, mas não é uma regra
+
+-> após cada comando, a linha é finalizada com . (equivaente ao ; em C)
+
+-> ao final de todo o programa é necessário uma linha em branco (semelhante ao Python)
+
+
+-- DIVISÃO DO PROGRAMA --
+-> o código em cobol é dividido em seções (divisões), sendo elas: IDENTIFICATION, ENVIROMENT, DATA, PROCEDURE
+
+-> IDENTIFICATION DIVISION
+  . utilizada para a identificação do programa (nome, autor, etc)
+  
+  . obrigatório:
+    PROGRAM-ID: Define o nome do programa interno ao COBOL.
+
+  . opcionais:
+    INSTALLATION: Indica o nome da instalação ou organização onde o programa será executado.
+    DATE-WRITTEN: Especifica a data em que o programa foi escrito.
+    DATE-COMPILED: Indica a data em que o programa foi compilado.
+    SECURITY: Fornece informações de segurança relacionadas ao programa.
+    REMARKS: Permite adicionar comentários ou notas livres sobre o programa
+
+-> ENVIROMENT DIVISION
+  . utilizada para definição do ambiente
+
+-> DATA DIVISION
+  . utilizada para a declaração de variáveis e estruturas utilizadas
+
+-> PROCEDURE DIVISION
+  . seção de procedimentos (ação)
+  . na prática, é aqui que o programa é executado
+
+
+-- COMANDOS INICIAIS --
+-> o comando para printar na saída do terminal será o "DISPLAY"
+
+-> o comando para parar a execução do programa é "STOP RUN"
+
+-> o comando para finalizar o programa é "END-PROGRAM <nome do pograma>"
+
+
+-- COMPILANDO O CÓDIGO --
+-> a flag para compilar códigos em COBOl é "cobc -x <nome do programa>.cbl"
