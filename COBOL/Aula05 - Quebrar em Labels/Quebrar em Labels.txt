@@ -1,0 +1,23 @@
+-- QUEBRAR EM LABELS --
+-> É o equivalente a criação de funções/métodos
+
+-> Utilizar métodos para realizar procedimentos simples facilita a manutenção do código
+
+-> Para delarar uma função, é feito exatamente como a MAIN
+
+-> Para realizar a "chamada" do método, utilizamos o comando PERFORM
+
+-> Ex:
+
+  PROCEDURE DIVISION
+  MAIN.
+    ...
+    PERFORM METODO1.
+    PERFORM METODO2.
+    ...
+
+  METODO1.
+    ...
+
+  METODO2.
+    ...
