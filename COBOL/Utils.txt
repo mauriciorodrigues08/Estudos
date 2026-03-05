@@ -32,4 +32,7 @@
   . Ex: READ ARQUIVO INTO DETALHAMENTO
     * salva as informações daquela linha do arquivo dentro da variável detalhamento
 
-->
+-> PERFORM
+  . Utilizado para fazer a chamada de métodos/funções
+  . Ex: PERFORM PROCESSAMENTO
+    * realiza a chamada do método PROCESSAMENTO
