@@ -21,7 +21,7 @@
 -> INSPECT
   . Faz o map de uma veriável realizando uma ação
   . Ex: INSPECT NOME REPLACING ALL " " BY LOW-VALUES
-    * faz o map do nome trocando todos os " " por valores "vazios"
+    * faz o map de NOME trocando todos os " " por valores "vazios"
 
 -> OPEN / CLOSE
   . Utilizado para abertura e fechamento de arquivos
@@ -36,3 +36,13 @@
   . Utilizado para fazer a chamada de métodos/funções
   . Ex: PERFORM PROCESSAMENTO
     * realiza a chamada do método PROCESSAMENTO
+
+-> SELECT
+  . Utilizado para a declaração de um arquivo para dentro do COBOL
+  . Ex:
+    ENVIRONMENT DIVISION.
+    INPUT-OUTPUT SECTION.
+    FILE-CONTROL.
+      SELECT CONTAS ASSIGN TO "CONTAS.DATA" ORGANIZATION IS LINE SEQUENTIAL.
+
+  . O bloco acima declara o arquivo "CONTAS.DATA" como CONTAS e diz que sua organização é sequencial em linhas
