@@ -1,0 +1,31 @@
+- GRAVAR DADOS EM UM ARQUIVO -
+-> Para realizar a gravação/escrita de dados em um arquivo é muito semelhante à leitura
+
+-> O arquivo é aberto da mesma maneira na ENVIRONMENT DIVISION
+
+-> As informações de detalhamento são declaradas da mesma maneira
+
+-> O que muda é na hora de salvar as informações
+  . Ao invés de READ <informações> INTO <arquivo> antes do processamento
+  . Utilizamos WRITE <informações>
+
+-> Boas práticas
+  . Por convenção, as variáveis são declaradas de maneiras distintas
+  
+  . Utilizamos nomes padrão para variáveis de arquivo
+  . Ex: NOME-CLIENTE, IDADE-CLIENTE, GENERO-CLIENTE, etc
+
+  . Utilizamos uma tag WS para variáveis locais (Working Storage)
+  . Ex: WS-NOME-CLIENTE, WS-IDADE-CLIENTE, WS-GENERO-CLIENTE, etc
+
+  . Isso serve para que, ao salvar as informações WS nas variáveis de arquivo não haja confusão
+
+  . Ex: Salvando informações em um arquivo
+    MOVE WS-NOME-CLIENTE TO NOME-CLIENTE.
+    MOVE WS-IDADE-CLIENTE TO IDADE-CLIENTE.
+    MOVE WS-GENERO-CLIENTE TO GENERO-CLIENTE.
+
+    WRITE DETALHAMENTO.
+
+    * considere que as variáveis NOME, IDADE e GENERO são partes de uma variável de arquivo DETALHAMENTO
+    * após salvar os valores nas variáveis de arquivo, é feito a escrita no arquivo de fato

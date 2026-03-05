@@ -27,6 +27,16 @@
   . Utilizado para abertura e fechamento de arquivos
   . Ex: OPEN INPUT ARQUIVO ... CLOSE ARQUIVO
 
+-> SELECT
+  . Utilizado para a declaração de um arquivo para dentro do COBOL
+  . Ex:
+    ENVIRONMENT DIVISION.
+    INPUT-OUTPUT SECTION.
+    FILE-CONTROL.
+      SELECT CONTAS ASSIGN TO "CONTAS.DATA" ORGANIZATION IS LINE SEQUENTIAL.
+
+  . O bloco acima declara o arquivo "CONTAS.DATA" como CONTAS e diz que sua organização é sequencial em linhas
+
 -> READ INTO
   . Utilizado para ler as informações de um arquivo e salvá-las em uma variável
   . Ex: READ ARQUIVO INTO DETALHAMENTO
@@ -37,12 +47,7 @@
   . Ex: PERFORM PROCESSAMENTO
     * realiza a chamada do método PROCESSAMENTO
 
--> SELECT
-  . Utilizado para a declaração de um arquivo para dentro do COBOL
-  . Ex:
-    ENVIRONMENT DIVISION.
-    INPUT-OUTPUT SECTION.
-    FILE-CONTROL.
-      SELECT CONTAS ASSIGN TO "CONTAS.DATA" ORGANIZATION IS LINE SEQUENTIAL.
-
-  . O bloco acima declara o arquivo "CONTAS.DATA" como CONTAS e diz que sua organização é sequencial em linhas
+-> WRITE
+  . Utilizado para gravar informações em um arquivo.
+  . Ex: WRITE DETALHES
+  * grava as informações da variável DETALHES na linha atual do arquivo que está aberto
