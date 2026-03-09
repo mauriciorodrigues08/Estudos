@@ -4,8 +4,8 @@
 
 -> ACCEPT
   . Função para receber o valor de uma variável
-  . Somente ACCEPT recebe da entrada padrão
-  . ACCEPT FROM <biblioteca> aceita de um dado interno
+  . ACCEPT <variável> recebe da entrada padrão
+  . ACCEPT <variável> FROM <biblioteca> recebe o dado de uma biblioteca interna
 
 -> COMPUTE
   . Utilizado para a realização de calculos
@@ -13,10 +13,11 @@
     * salva o resultado de PESO / (ALTURA ** 2) na variável IMC
 
 -> PERFORM UNTIL <condição>
-  . Laço de repetição
+  . Laço de repetição 
+  . semelhante ao laço while()
   . Fica no loop até que a condição seja satisfeita
   . Ex: PERFORM UNTIL QTD > 10
-    * vai realizar os comandos da repetição até que a quantidade seja maior que 10
+    * comando vai se repetir até que a quantidade seja maior que 10
 
 -> INSPECT
   . Faz o map de uma veriável realizando uma ação
@@ -51,3 +52,14 @@
   . Utilizado para gravar informações em um arquivo.
   . Ex: WRITE DETALHES
   * grava as informações da variável DETALHES na linha atual do arquivo que está aberto
+
+-> PERFORM VARYING
+  . Utilizado para gerar um laço de repetição 
+  . semelhante ao laço for()
+  . Ex: PERFORM VARYING WS-CONTADOR FROM 1 BY 1 UNTIL WS-CONTADOR > 3
+    * o comando irá se repetir até que o contador seja maior que 3
+    * ele inicia o contador com 1 (FROM 1) e incrementa 1 (BY 1) a cada repetição
+
+-> UNSTRING
+  . Utilizado para realizar a separação de strings
+  . Semelhante ao split()

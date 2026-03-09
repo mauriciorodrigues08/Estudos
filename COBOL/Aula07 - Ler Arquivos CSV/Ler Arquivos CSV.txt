@@ -1,0 +1,8 @@
+- LEITURA DE ARQUIVOS CSV -
+-> No Cobol não existe quaisquer referências a formatos de arquivos usados atualmente de transporte como CSV, XML ou JSon.
+
+-> Porém, se for necessário tratar esses arquivos, podemos fazer da seguinte forma:
+  . sabemos que em arquivos CSV os valores são separados por algum caractere (geralmente vírgulas)
+  . então lemos o arquivo de maneira sequencial (como em arquivos .DATA) e separamos cada dado daquela linha
+  . obs: devemos garantir que nenhuma linha do arquivo ultrapasse a quantidade declarada no código
+  
