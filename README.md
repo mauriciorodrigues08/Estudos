@@ -7,8 +7,6 @@ Este espaço é o meu "laboratório" pessoal, onde concentro os projetos, testes
 Minhas explorações pessoais estão divididas nas seguintes áreas:
 
 - **Sistemas Legados e Transacionais:** Projetos práticos em **COBOL**, simulando rotinas do mundo corporativo.
-- **Exploração Contínua:** Meus primeiros passos e testes práticos com o ecossistema **.NET/C#**, focando na transição de paradigmas de orientação a objetos.
-- **Bancos de Dados Relacionais:** Modelagem, consultas (queries) e manipulação de dados utilizando **MySQL** e **PostgreSQL**.
 
 ## Sobre a Iniciativa
 Sou estudante de Ciência da Computação, mas acredito fortemente que o aprendizado ativo e a experimentação prática são os verdadeiros diferenciais na nossa área. Valorizo o processo de "aprender a aprender" e utilizo este repositório para testar hipóteses, errar, corrigir e documentar soluções.
