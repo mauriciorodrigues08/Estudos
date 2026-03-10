@@ -1,0 +1,13 @@
+- Arquivos Realativos -
+-> Até aqui, vimos a manipulação de arquivos sequenciais. Mas e no caso do arquivo não ser sequencial?
+
+-> Nesse caso, o arquivo pode ser de duas naturezas: Arquivos Relativos ou Arquivos Indexados.
+
+-> Para tratar Arquivos Relativos, fazemos da seguinte maneira:
+  . Na ENVIRONMENT SECTION, declaramos o arquivo da seguinte forma:
+    SELECT ARQUIVO-RELATIVO ASSIGN TO "clientes.dat"
+      ORGANIZATION IS RELATIVE
+      ACCESS MODE IS DYNAMIC
+      RELATIVE KEY IS WS-CHAVE-RELATIVA
+
+  * Neste caso, WS-CHAVE representa a posição do registro no arquivo

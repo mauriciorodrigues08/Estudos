@@ -63,3 +63,20 @@
 -> UNSTRING
   . Utilizado para realizar a separação de strings
   . Semelhante ao split()
+  . Ex: 
+    UNSTRING DETALHAMENTO DELIMITED BY ','
+      INTO WS-DADO(1) WS-DADO(2) WS-DADO(3)
+    END-UNSTRING.
+
+-> EVALUATE
+  . Utilizado para selecionar um caso entre várias opções
+  . Semelhante ao switch..case
+  . Ex:
+    EVALUATE op
+      WHEN 1
+        ...
+      WHEN 2
+        ...
+      WHEN OTHER
+        ...
+    END-EVALUATE.
