@@ -1,6 +1,3 @@
-      * PROJETO QUE SIMULA A GESTÃO DE INFORMAÇÕES DE ALUNOS SALVAS EM
-      * UM ARQUIVO .idx ATRAVÉS DE UM CRUD
-       
        IDENTIFICATION DIVISION.
            PROGRAM-ID. GESTAO-ALUNOS.
            AUTHOR. Mauricio Rodrigues.
@@ -256,3 +253,4 @@
              PERFORM ABRE-ARQ-IDX
            END-IF.
 
+      
