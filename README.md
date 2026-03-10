@@ -13,6 +13,4 @@ Minhas explorações pessoais estão divididas nas seguintes áreas:
 ## Sobre a Iniciativa
 Sou estudante de Ciência da Computação, mas acredito fortemente que o aprendizado ativo e a experimentação prática são os verdadeiros diferenciais na nossa área. Valorizo o processo de "aprender a aprender" e utilizo este repositório para testar hipóteses, errar, corrigir e documentar soluções.
 
-Sinta-se à vontade para explorar os códigos ou entrar em contato!
-
-📫 **Conecte-se comigo:** [Link para o seu LinkedIn]
+Sinta-se à vontade para explorar os códigos!
