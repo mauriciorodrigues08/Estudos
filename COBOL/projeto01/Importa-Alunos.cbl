@@ -28,14 +28,9 @@
        FD DB-ALUNOS.
        01 REG-DB-ALUNO.
            05 DB-MATRICULA         PIC X(08).
-           05 DB-NOME.
-             10 DB-PRIMEIRO-NOME   PIC X(15).
-             10 DB-ULTIMO-NOME     PIC X(15).
+           05 DB-NOME              PIC X(30).
            05 DB-CURSO             PIC X(20).
-           05 DB-DATA-ENTRADA.
-             10 DB-DIA-ENTRADA     PIC 9(02).
-             10 DB-MES-ENTRADA     PIC 9(02).
-             10 DB-ANO-ENTRADA     PIC 9(04).
+           05 DB-DATA-ENTRADA      PIC X(10).
 
        WORKING-STORAGE SECTION.
        01 WS-STATUS                PIC X(02) VALUE "00".
