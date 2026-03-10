@@ -36,6 +36,12 @@
     FILE-CONTROL.
       SELECT CONTAS ASSIGN TO "CONTAS.DATA" ORGANIZATION IS LINE SEQUENTIAL.
 
+  . Seções do SELECT
+    ORGANIZATION IS <tipo de organização>
+    ACCESS MODE IS <tipo de accesso>
+    RECORD KEY IS <variavel>
+    FILE STATUS IS <variavel>.
+
   . O bloco acima declara o arquivo "CONTAS.DATA" como CONTAS e diz que sua organização é sequencial em linhas
 
 -> READ INTO
@@ -52,6 +58,16 @@
   . Utilizado para gravar informações em um arquivo.
   . Ex: WRITE DETALHES
   * grava as informações da variável DETALHES na linha atual do arquivo que está aberto
+
+-> REWRITE
+  . Utilizado para reescrever um registro em um arquivo
+  . Ex REWRITE DETALHES
+  * sobrescreve as informações contidas naquele registro do arquivo pelas novas que estão salvas em DETALHES
+
+-> DELETE
+  . Utilizado para deletar um registro de um arquivo
+  . Ex: DELETE DETALHES
+  * exclui completamente o registro DETALHES que estava contido naquele ponto do arquivo
 
 -> PERFORM VARYING
   . Utilizado para gerar um laço de repetição 

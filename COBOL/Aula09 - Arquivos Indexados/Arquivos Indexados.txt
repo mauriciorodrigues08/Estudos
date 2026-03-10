@@ -1,0 +1,10 @@
+- ARQUIVOS INDEXADOS -
+-> Além dos arquivos relativos, temos também os ARQUIVOS INDEXADOS
+
+-> Esses arquivos oferecem mais flexibilidade em relação aos RELATIVOS, pois permite:
+  . modificação de registros
+  . exclusão de registros
+
+-> Com eles, é possível, por exemplo, a criação de um CRUD completo
+
+->
