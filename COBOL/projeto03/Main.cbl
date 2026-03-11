@@ -66,7 +66,8 @@
              DISPLAY "2 - Alterar Produto"
              DISPLAY "3 - Listar Produtos"
              DISPLAY "4 - Excluir Produto"
-             DISPLAY "5 - Processar Vendas do Dia"
+             DISPLAY "5 - Realizar Venda"
+             DISPLAY "6 - Processar Vendas do Dia"
              DISPLAY "0 - Sair"
              DISPLAY "-----------------------------------"
       
@@ -87,7 +88,9 @@
                WHEN 4
                  PERFORM EXCLUIR-PRODUTO
                WHEN 5
-      *          CHAMAR O MÓDULO DE PROCESSA VENDAS
+      *          CHAMAR FUNÇÃO PARA REALIZAR UMA VENDA
+               WHEN 6
+      *          CHAMAR O MÓDULO DE PROCESSAR VENDAS
              END-EVALUATE
 
            END-PERFORM.
