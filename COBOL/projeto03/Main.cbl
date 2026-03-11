@@ -86,8 +86,8 @@
                  PERFORM LISTAR-PRODUTOS
                WHEN 4
                  PERFORM EXCLUIR-PRODUTO
-               WHEN 4
-                 CALL "ProcessaVendas"
+               WHEN 5
+      *          CHAMAR O MÓDULO DE PROCESSA VENDAS
              END-EVALUATE
 
            END-PERFORM.
