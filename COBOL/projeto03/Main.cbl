@@ -38,10 +38,13 @@
        01 WS-QTD-IMPORTACOES        PIC 9(03).
        01 WS-STATUS-IMPORTACAO      PIC X(02).
 
-      * Variáveis para Linkage Storage (Processamento de Vendas)
+      * Variáveis para Linkage Storage (Processamento Vendas)
        01 WS-VENDAS-REALIZADAS      PIC 9(03).
        01 WS-VALOR-ARRECADADO       PIC 9(05)V9(02).
        
+      * Variáveis para Linkage Storage (Realizar Venda)
+       01 WS-STATUS-VENDA           PIC X(02).
+
        PROCEDURE DIVISION.
        MAIN.
       *    Executa o programa de importação de produtos
@@ -88,9 +91,11 @@
                WHEN 4
                  PERFORM EXCLUIR-PRODUTO
                WHEN 5
-      *          CHAMAR FUNÇÃO PARA REALIZAR UMA VENDA
-               WHEN 6
+                 PERFORM REALIZAR-VENDA
+      *        WHEN 6
       *          CHAMAR O MÓDULO DE PROCESSAR VENDAS
+               WHEN OTHER
+                 DISPLAY "Opção inválida!"
              END-EVALUATE
 
            END-PERFORM.
@@ -290,7 +295,14 @@
       *    Fecha arquivo
            CLOSE IDX-PRODUTOS.
 
+       REALIZAR-VENDA.
+           CALL "RealizarVenda" USING WS-STATUS-VENDA.
 
+           IF WS-STATUS-VENDA = "OK"
+             DISPLAY "Venda realizada com Sucesso!"
+           ELSE
+             DISPLAY "Venda Cancelada!"
+           END-IF.
 
        ABRE-ARQ-IDX.
            OPEN I-O IDX-PRODUTOS.

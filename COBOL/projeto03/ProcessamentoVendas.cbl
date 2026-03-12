@@ -41,13 +41,9 @@
            
       *    A Fazer:
       *    PERCORRER O CSV DE VENDAS
-      *    VERIFICA SE A VENDA É VÁLIDA
-      *      - A VENDA SERÁ INVÁLIDA QUANDO A QUANTIDADE NÃO FOR SUFICIENTE
-      *    SE NÃO FOR, NOTIFICA ERRO
-      *    SE FOR:
-      *      - DECREMENTA QUANTIDADE EM ESTOQUE
+      *    A CADA REPETIÇÃO
       *      - INCREMENTA VENDAS REALIZADAS
-      *      - INCREMENTA VALOR ARRECADADO
-      *      - NOTIFICA SUCESSO
+      *      - SOMA VALOR ARRECADADO
            
            EXIT PROGRAM.
+           

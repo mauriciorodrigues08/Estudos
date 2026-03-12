@@ -96,3 +96,26 @@
       WHEN OTHER
         ...
     END-EVALUATE.
+
+-> STRING
+  . Utilizado para criar uma nova string.
+  . Sintaxe:
+    STRING
+      <variavel ou texto> <tipo de delimitação>
+      <variavel ou texto> <tipo de delimitação>
+      ...
+      INTO <variável destino>
+    END-STRING.
+
+  . Tipos de Delimitação
+    - DELIMITED BY SIZE: transfere o conteúdo completo de um campo (incluindo espaços à direita).
+    - DELIMITED BY " ": transfere até encontrar um espaço (útil para limpar lixo).
+
+  . Ex:
+    STRING
+      PRIMEIRO NOME DELIMITED BY " "
+      " "           DELIMITED BY SIZE
+      ULTIMO NOME   DELIMITED BY " "
+      INTO NOME-COMPLETO
+    END-STRING.
+    ** vai ser criado a variável NOME-COMPLETO com primeiro e ultimo nome separados por um espaço
