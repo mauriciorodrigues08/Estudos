@@ -1,11 +1,12 @@
        IDENTIFICATION DIVISION.
-           PROGRAM-ID. Controle-Estoque-Vendas.
+           PROGRAM-ID. CRUD.
            AUTHOR. Maurício Rodrigues.
        
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT IDX-PRODUTOS ASSIGN TO "../arch/produtos.idx"
+           SELECT IDX-PRODUTOS 
+             ASSIGN TO "../arch/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
              FILE STATUS IS WS-STATUS
@@ -26,6 +27,7 @@
        01 WS-EOF                    PIC X(01) VALUE 'N'.
        01 WS-CONTADOR               PIC 9(03).
        01 WS-VERIFICACAO            PIC X(01).
+       01 WS-PRECO-EDITADO          PIC ZZZ9.99.
 
       * Variáveis Locais de Produto 
        01 WS-CODIGO                 PIC 9(05).
@@ -34,7 +36,7 @@
        01 WS-QTD-ESTOQUE            PIC 9(03).
        
        LINKAGE SECTION.
-       01 LS-OPCAO                  PIC X(01).
+       01 LS-OPCAO                  PIC 9(01).
 
        PROCEDURE DIVISION USING LS-OPCAO.
        MAIN.
@@ -52,6 +54,10 @@
              WHEN 4
                PERFORM EXCLUIR-PRODUTO
            END-EVALUATE.
+
+      *    Retorna
+           EXIT PROGRAM.
+
 
        ADICIONAR-PRODUTO.
            DISPLAY "-----------------------------------".
@@ -91,6 +97,9 @@
            
       *    Fecha o arquivo
            CLOSE IDX-PRODUTOS.
+
+      *    Retorna
+           EXIT PARAGRAPH.
 
        
        ALTERAR-PRODUTO.
@@ -157,6 +166,9 @@
 
       *    Abre o arquivo
            CLOSE IDX-PRODUTOS.
+
+      *    Retorna
+           EXIT PARAGRAPH.
        
        
        LISTAR-PRODUTOS.
@@ -181,11 +193,13 @@
               
       *      Caso não seja o final do arquivo (EOF)
              NOT AT END
+               MOVE PRODUTO-PRECO-UNIT TO WS-PRECO-EDITADO 
+
                ADD 1 TO WS-CONTADOR
                DISPLAY "PRODUTO #" WS-CONTADOR
                DISPLAY "Código: " PRODUTO-CODIGO
                DISPLAY "Descrição: " PRODUTO-DESCRICAO
-               DISPLAY "Preço Unitário: R$" PRODUTO-PRECO-UNIT
+               DISPLAY "Preço Unitário: R$" WS-PRECO-EDITADO
                DISPLAY "Quantidade em Estoque: " PRODUTO-QTD-ESTOQUE
                DISPLAY " "          
 
@@ -193,6 +207,9 @@
 
       *    Fecha arquivo
            CLOSE IDX-PRODUTOS.
+      
+      *    Retorna
+           EXIT PARAGRAPH.
        
 
        EXCLUIR-PRODUTO.
@@ -245,6 +262,10 @@
       *    Fecha arquivo
            CLOSE IDX-PRODUTOS.
 
+      *    Retorna
+           EXIT PARAGRAPH.
+
+
        ABRE-ARQ-IDX.
            OPEN I-O IDX-PRODUTOS.
 
@@ -254,3 +275,7 @@
              CLOSE IDX-PRODUTOS
              PERFORM ABRE-ARQ-IDX
            END-IF.
+
+      *    Retorna
+           EXIT PARAGRAPH.
+      

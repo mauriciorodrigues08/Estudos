@@ -4,10 +4,12 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT CSV-PRODUTOS ASSIGN TO "../arch/produtos.csv"
+           SELECT CSV-PRODUTOS 
+             ASSIGN TO "../arch/produtos.csv"
              ORGANIZATION IS LINE SEQUENTIAL.
 
-           SELECT IDX-PRODUTOS ASSIGN TO "../arc/produtos.idx"
+           SELECT IDX-PRODUTOS
+             ASSIGN TO "../arch/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
              FILE STATUS IS WS-STATUS
@@ -87,6 +89,7 @@
            CLOSE IDX-PRODUTOS.
            CLOSE CSV-PRODUTOS.
 
+      *    Retorna
            EXIT PROGRAM.
 
        ABRE-ARQ-IDX.

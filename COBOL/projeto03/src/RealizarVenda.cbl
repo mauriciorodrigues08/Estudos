@@ -5,14 +5,17 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT IDX-PRODUTOS ASSIGN TO "../arch/produtos.idx"
+           SELECT IDX-PRODUTOS 
+             ASSIGN TO "../arch/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
-             FILE STATUS IS WS-STATUS
+             FILE STATUS IS WS-STATUS-IDX
              RECORD KEY IS PRODUTO-CODIGO.
        
-           SELECT CSV-VENDAS ASSIGN TO "../arc/vendas-do-dia.csv"
-             ORGANIZATION IS LINE SEQUENTIAL.
+           SELECT CSV-VENDAS 
+             ASSIGN TO "../arch/vendas-do-dia.csv"
+             ORGANIZATION IS LINE SEQUENTIAL
+             FILE STATUS IS WS-STATUS-CSV.
 
        DATA DIVISION.
        FILE SECTION.
@@ -27,11 +30,12 @@
        01 DETALHAMENTO              PIC X(100).
 
        WORKING-STORAGE SECTION.
-       01 WS-STATUS                 PIC X(02).
+       01 WS-STATUS-IDX             PIC X(02).
+       01 WS-STATUS-CSV             PIC X(02).
 
        01 WS-QTD-VENDA              PIC 9(03).
        01 WS-NOVA-QTD               PIC 9(03).
-       01 WS-CODIGO                 PIC X(05).
+       01 WS-CODIGO                 PIC 9(05).
 
        01 WS-NOVA-LINHA             PIC X(100).
        
@@ -105,22 +109,32 @@
            END-STRING
 
       *    Adiciona a linha criada ao arquivo
-           OPEN EXTEND CSV-VENDAS.
+           PERFORM ABRE-ARQ-CSV.
            
            MOVE WS-NOVA-LINHA TO DETALHAMENTO.
            WRITE DETALHAMENTO.
 
            CLOSE CSV-VENDAS.
 
-      *    Retorna para o método principal
+      *    Retorna
            EXIT PROGRAM.
 
        ABRE-ARQ-IDX.
            OPEN I-O IDX-PRODUTOS.
-
+      
       *    Caso o arquivo não exista, cria
-           IF WS-STATUS = "35"
+           IF WS-STATUS-IDX = "35"
              OPEN OUTPUT IDX-PRODUTOS
              CLOSE IDX-PRODUTOS
              PERFORM ABRE-ARQ-IDX
+           END-IF.           
+
+       ABRE-ARQ-CSV.
+           OPEN EXTEND CSV-VENDAS.
+      
+      *    Caso o arquivo não exista, cria
+           IF WS-STATUS-CSV = "35"
+             OPEN OUTPUT CSV-VENDAS
+             CLOSE CSV-VENDAS
+             PERFORM ABRE-ARQ-CSV
            END-IF.           

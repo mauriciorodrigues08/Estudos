@@ -15,10 +15,6 @@
       * Variáveis para Linkage Storage (Realizar Venda)
        01 WS-STATUS-VENDA           PIC X(02).
 
-      * Variáveis para Linkage Storage (Processamento Vendas)
-       01 WS-VENDAS-REALIZADAS      PIC 9(03).
-       01 WS-VALOR-ARRECADADO       PIC 9(05)V9(02).
-
 
        PROCEDURE DIVISION.
        MAIN.
@@ -67,8 +63,8 @@
                WHEN 5
                  PERFORM CHAMA-VENDA
                  
-      *        WHEN 6
-      *          CHAMAR O MÓDULO DE PROCESSAR VENDAS
+               WHEN 6
+                 PERFORM CHAMA-PROCESSA-VENDAS
 
                WHEN OTHER
                  DISPLAY "Opção inválida!"
@@ -76,6 +72,7 @@
              END-EVALUATE
            END-PERFORM.
 
+      *    Finaliza o Programa
            STOP RUN.
 
 
@@ -93,3 +90,6 @@
              DISPLAY "Venda Cancelada!"
            END-IF.
 
+
+       CHAMA-PROCESSA-VENDAS.
+           CALL "ProcessarVendas".
