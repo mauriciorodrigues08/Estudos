@@ -5,7 +5,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT IDX-PRODUTOS ASSIGN TO "produtos.idx"
+           SELECT IDX-PRODUTOS ASSIGN TO "../arch/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
              FILE STATUS IS WS-STATUS
@@ -24,7 +24,6 @@
       * Variáveis de Controle
        01 WS-STATUS                 PIC X(02).
        01 WS-EOF                    PIC X(01) VALUE 'N'.
-       01 WS-OPCAO                  PIC 9(01) VALUE 9.
        01 WS-CONTADOR               PIC 9(03).
        01 WS-VERIFICACAO            PIC X(01).
 
@@ -33,75 +32,26 @@
        01 WS-DESCRICAO              PIC X(30).
        01 WS-PRECO-UNIT             PIC 9(04)V99.
        01 WS-QTD-ESTOQUE            PIC 9(03).
-
-      * Variáveis para Linkage Storage (Importação)
-       01 WS-QTD-IMPORTACOES        PIC 9(03).
-       01 WS-STATUS-IMPORTACAO      PIC X(02).
-
-      * Variáveis para Linkage Storage (Processamento Vendas)
-       01 WS-VENDAS-REALIZADAS      PIC 9(03).
-       01 WS-VALOR-ARRECADADO       PIC 9(05)V9(02).
        
-      * Variáveis para Linkage Storage (Realizar Venda)
-       01 WS-STATUS-VENDA           PIC X(02).
+       LINKAGE SECTION.
+       01 LS-OPCAO                  PIC X(01).
 
-       PROCEDURE DIVISION.
+       PROCEDURE DIVISION USING LS-OPCAO.
        MAIN.
-      *    Executa o programa de importação de produtos
-           CALL "ImportaCsv" USING WS-QTD-IMPORTACOES, 
-             WS-STATUS-IMPORTACAO.
-
-      *    Printa os resultados da importação
-           DISPLAY "Status da Importação: " WS-STATUS-IMPORTACAO.
-           DISPLAY "Quantidade de produtos importados: "
-             WS-QTD-IMPORTACOES.
-           DISPLAY "-----------------------------------".
-           DISPLAY " "
-
-      *    Loop de execução do programa
-           PERFORM UNTIL WS-OPCAO = 0
-
-      *      Menu de opções
-             DISPLAY "-----------------------------------"
-             DISPLAY " GESTÃO DE ESTOQUE E VENDAS"
-             DISPLAY "-----------------------------------"
-             DISPLAY "1 - Cadastrar Produto"
-             DISPLAY "2 - Alterar Produto"
-             DISPLAY "3 - Listar Produtos"
-             DISPLAY "4 - Excluir Produto"
-             DISPLAY "5 - Realizar Venda"
-             DISPLAY "6 - Processar Vendas do Dia"
-             DISPLAY "0 - Sair"
-             DISPLAY "-----------------------------------"
-      
-      *      Recebendo opção
-             DISPLAY "Escolha sua opção: " WITH NO ADVANCING
-             ACCEPT WS-OPCAO
-      
-      *      Switch da opção
-             EVALUATE WS-OPCAO
-               WHEN 0
-                 DISPLAY "Programa Finalizado!"
-               WHEN 1
-                 PERFORM ADICIONAR-PRODUTO
-               WHEN 2
-                 PERFORM ALTERAR-PRODUTO
-               WHEN 3
-                 PERFORM LISTAR-PRODUTOS
-               WHEN 4
-                 PERFORM EXCLUIR-PRODUTO
-               WHEN 5
-                 PERFORM REALIZAR-VENDA
-      *        WHEN 6
-      *          CHAMAR O MÓDULO DE PROCESSAR VENDAS
-               WHEN OTHER
-                 DISPLAY "Opção inválida!"
-             END-EVALUATE
-
-           END-PERFORM.
-      
-           STOP RUN.
-
+      *    Switch da opção
+           EVALUATE LS-OPCAO
+             WHEN 1
+               PERFORM ADICIONAR-PRODUTO
+             
+             WHEN 2
+               PERFORM ALTERAR-PRODUTO
+             
+             WHEN 3
+               PERFORM LISTAR-PRODUTOS
+             
+             WHEN 4
+               PERFORM EXCLUIR-PRODUTO
+           END-EVALUATE.
 
        ADICIONAR-PRODUTO.
            DISPLAY "-----------------------------------".
@@ -294,15 +244,6 @@
 
       *    Fecha arquivo
            CLOSE IDX-PRODUTOS.
-
-       REALIZAR-VENDA.
-           CALL "RealizarVenda" USING WS-STATUS-VENDA.
-
-           IF WS-STATUS-VENDA = "OK"
-             DISPLAY "Venda realizada com Sucesso!"
-           ELSE
-             DISPLAY "Venda Cancelada!"
-           END-IF.
 
        ABRE-ARQ-IDX.
            OPEN I-O IDX-PRODUTOS.

@@ -4,10 +4,10 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT CSV-PRODUTOS ASSIGN TO "produtos.csv"
+           SELECT CSV-PRODUTOS ASSIGN TO "../arch/produtos.csv"
              ORGANIZATION IS LINE SEQUENTIAL.
 
-           SELECT IDX-PRODUTOS ASSIGN TO "produtos.idx"
+           SELECT IDX-PRODUTOS ASSIGN TO "../arc/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
              FILE STATUS IS WS-STATUS

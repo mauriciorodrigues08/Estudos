@@ -5,13 +5,13 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT IDX-PRODUTOS ASSIGN TO "produtos.idx"
+           SELECT IDX-PRODUTOS ASSIGN TO "../arch/produtos.idx"
              ORGANIZATION IS INDEXED
              ACCESS MODE IS DYNAMIC
              FILE STATUS IS WS-STATUS
              RECORD KEY IS PRODUTO-CODIGO.
        
-           SELECT CSV-VENDAS ASSIGN TO "vendas-do-dia.csv"
+           SELECT CSV-VENDAS ASSIGN TO "../arc/vendas-do-dia.csv"
              ORGANIZATION IS LINE SEQUENTIAL.
 
        DATA DIVISION.
@@ -34,9 +34,9 @@
        01 WS-CODIGO                 PIC X(05).
 
        01 WS-NOVA-LINHA             PIC X(100).
-
+       
        LINKAGE SECTION.
-       01 LS-STATUS-VENDA                 PIC X(02).
+       01 LS-STATUS-VENDA           PIC X(02).
        
        PROCEDURE DIVISION USING LS-STATUS-VENDA.
        MAIN.
