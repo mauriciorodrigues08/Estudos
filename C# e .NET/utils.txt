@@ -1,0 +1,4 @@
+- FUNÇÕES ÚTEIS PARA PROGRAMAÇÃO C# -
+
+-> Console.writeline
+  . Função para printar no console
