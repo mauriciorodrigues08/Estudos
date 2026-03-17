@@ -26,7 +26,7 @@ Recomendo a exclusão do arquivo `alunos.idx` ao clonar o repositório, para que
 
 ```bash
   # Clone este repositório
-  git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+  git clone https://github.com/mauriciorodrigues08/Estudos/tree/main/COBOL/projeto01
 
   # Acesse o diretório do projeto
   cd seu-repositorio

@@ -23,7 +23,7 @@ Para rodar este projeto, é necessário ter um compilador COBOL instalado no seu
 
 ```bash
   # Clone este repositório
-  git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+  git clone https://github.com/mauriciorodrigues08/Estudos/tree/main/COBOL/projeto02
 
   # Acesse o diretório do projeto
   cd seu-repositorio

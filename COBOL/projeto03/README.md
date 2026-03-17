@@ -26,7 +26,7 @@ Após instalado o compilador, realize os passos abaixo:
 
 ```bash
   # Clone este repositório
-  git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+  git clone https://github.com/mauriciorodrigues08/Estudos/tree/main/COBOL/projeto03
 
   # Acesse o diretório do projeto
   cd seu-repositorio
