@@ -1,4 +1,34 @@
 - FUNÇÕES ÚTEIS PARA PROGRAMAÇÃO C# -
 
--> Console.writeline
-  . Função para printar no console
+-> Funções para contato com a entrada padrão
+  . Console.WriteLine()
+    * Função para printar no console
+
+  . Console.ReadLine()
+    * Função para ler a próxima linha da entrada padrão
+
+-> Funções para Listas
+  . List<string> palavras = new List<string>()
+    * Criação de uma lista vazia do tipo string
+
+  . List<string> palavras = new List<string>() { "palavra1", "palavra2", "palavra3", "palavra4" }
+    * Criação de uma lista de strings já com valores atribuídos
+
+  . lista.Add()
+    * Adiciona alguma coisa na lista
+
+  . lista.Remove()
+    * Remove alguma coisa da lista
+
+  . lista.Count()
+    * Conta a quantidade de elementos da lista 
+
+-> Funções de Arquivo
+  . Para trabalhar com arquivos, existe o módulo System.IO que possui métodos próprios para manipulação de arquivos
+
+  . Para manipular o arquivo, utiliza-se File.metodo()
+
+  . Exemplos:
+    File.WriteAllText(<path>, <texto>)   - escreve o texto/variável no arquivo especificado
+    File.AppendAllText(<path>, <texto>)  - escreve o texto/variável logo após a última coisa do arquivo especificado
+    File.ReadAllText(<path>)             - lê todo o conteúdo do arquivo especificado

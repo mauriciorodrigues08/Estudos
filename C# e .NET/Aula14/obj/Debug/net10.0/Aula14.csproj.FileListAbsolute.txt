@@ -1,0 +1,15 @@
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\bin\Debug\net10.0\Aula14.exe
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\bin\Debug\net10.0\Aula14.deps.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\bin\Debug\net10.0\Aula14.runtimeconfig.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\bin\Debug\net10.0\Aula14.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\bin\Debug\net10.0\Aula14.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.sourcelink.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\refint\Aula14.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\Aula14.genruntimeconfig.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# e .NET\Aula14\obj\Debug\net10.0\ref\Aula14.dll
