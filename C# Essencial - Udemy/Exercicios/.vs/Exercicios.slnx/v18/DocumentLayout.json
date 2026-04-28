@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B5526D-157D-DC20-9042-C9F8360E0589}|Exercicios 01.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B5526D-157D-DC20-9042-C9F8360E0589}|Exercicios 01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1521FA9-543E-09CE-812D-E4E856202783}|..\\Exercicios 02\\Exercicios 02.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exercicios 02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios 02\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Exercicios 02\\Program.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios 02\\Program.cs",
+              "RelativeToolTip": "..\\Exercicios 02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:11:44.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:07:14.204Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
