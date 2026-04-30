@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A65B60E-B508-4CD3-9F43-FED6F2BFC972}|..\\Exerc\u00EDcios 04\\Exerc\u00EDcios 04.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios 04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC61153-3C6A-48E5-9233-824B81D0EB42}|..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Exerc\u00EDcios - Classes e M\u00E9todos.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios - classes e m\u00E9todos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC2CC12C-B6B7-45D5-8F98-C989F196905E}|..\\Exerc\u00EDcios 03\\Exerc\u00EDcios 03.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios 03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC61153-3C6A-48E5-9233-824B81D0EB42}|..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Exerc\u00EDcios - Classes e M\u00E9todos.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios - classes e m\u00E9todos\\carroenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC61153-3C6A-48E5-9233-824B81D0EB42}|..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Exerc\u00EDcios - Classes e M\u00E9todos.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios - classes e m\u00E9todos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,26 +25,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 04\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios 04\\Program.cs",
-              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 04\\Program.cs",
-              "RelativeToolTip": "..\\Exerc\u00EDcios 04\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Program.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\Program.cs",
+              "RelativeToolTip": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T11:47:00.865Z",
+              "WhenOpened": "2026-04-30T12:15:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\Carro.cs",
+              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Carro.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\Carro.cs",
+              "RelativeToolTip": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\Carro.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwE0AAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:28:26.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 03\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios 03\\Program.cs",
-              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 03\\Program.cs",
-              "RelativeToolTip": "..\\Exerc\u00EDcios 03\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHoAAABqAAAAAAAAAA==",
+              "Title": "CarroEnum.cs",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\CarroEnum.cs",
+              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\CarroEnum.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios - Classes e M\u00E9todos\\CarroEnum.cs",
+              "RelativeToolTip": "..\\Exerc\u00EDcios - Classes e M\u00E9todos\\CarroEnum.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCIAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T11:39:49.292Z",
+              "WhenOpened": "2026-04-30T16:29:12.807Z",
               "EditorCaption": ""
             }
           ]

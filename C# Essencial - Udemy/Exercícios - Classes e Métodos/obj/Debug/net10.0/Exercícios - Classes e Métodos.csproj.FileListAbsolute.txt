@@ -1,0 +1,15 @@
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\bin\Debug\net10.0\Exercícios - Classes e Métodos.exe
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\bin\Debug\net10.0\Exercícios - Classes e Métodos.deps.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\bin\Debug\net10.0\Exercícios - Classes e Métodos.runtimeconfig.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\bin\Debug\net10.0\Exercícios - Classes e Métodos.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\bin\Debug\net10.0\Exercícios - Classes e Métodos.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.sourcelink.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\refint\Exercícios - Classes e Métodos.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\Exercícios - Classes e Métodos.genruntimeconfig.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Classes e Métodos\obj\Debug\net10.0\ref\Exercícios - Classes e Métodos.dll
