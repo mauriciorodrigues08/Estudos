@@ -3,11 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1521FA9-543E-09CE-812D-E4E856202783}|..\\Exercicios 02\\Exercicios 02.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exercicios 02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A65B60E-B508-4CD3-9F43-FED6F2BFC972}|..\\Exerc\u00EDcios 04\\Exerc\u00EDcios 04.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios 04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3B5526D-157D-DC20-9042-C9F8360E0589}|Exercicios 01.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3B5526D-157D-DC20-9042-C9F8360E0589}|Exercicios 01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC2CC12C-B6B7-45D5-8F98-C989F196905E}|..\\Exerc\u00EDcios 03\\Exerc\u00EDcios 03.csproj|c:\\users\\mauri\\onedrive\\documentos\\github\\estudos\\c# essencial - udemy\\exerc\u00EDcios 03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +22,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios 02\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Exercicios 02\\Program.cs",
-              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios 02\\Program.cs",
-              "RelativeToolTip": "..\\Exercicios 02\\Program.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAqwMQAAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 04\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios 04\\Program.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 04\\Program.cs",
+              "RelativeToolTip": "..\\Exerc\u00EDcios 04\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:11:44.248Z",
+              "WhenOpened": "2026-04-30T11:47:00.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exercicios\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 03\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Exerc\u00EDcios 03\\Program.cs",
+              "ToolTip": "C:\\Users\\mauri\\OneDrive\\Documentos\\GitHub\\Estudos\\C# Essencial - Udemy\\Exerc\u00EDcios 03\\Program.cs",
+              "RelativeToolTip": "..\\Exerc\u00EDcios 03\\Program.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHoAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:07:14.204Z",
+              "WhenOpened": "2026-04-28T11:39:49.292Z",
               "EditorCaption": ""
             }
           ]
