@@ -1,0 +1,15 @@
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\bin\Debug\net10.0\Exercícios 03.exe
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\bin\Debug\net10.0\Exercícios 03.deps.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\bin\Debug\net10.0\Exercícios 03.runtimeconfig.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\bin\Debug\net10.0\Exercícios 03.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\bin\Debug\net10.0\Exercícios 03.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.sourcelink.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\refint\Exercícios 03.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\Exercícios 03.genruntimeconfig.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios 03\obj\Debug\net10.0\ref\Exercícios 03.dll
