@@ -1,0 +1,15 @@
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\bin\Debug\net10.0\Exercícios - Coleções.exe
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\bin\Debug\net10.0\Exercícios - Coleções.deps.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\bin\Debug\net10.0\Exercícios - Coleções.runtimeconfig.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\bin\Debug\net10.0\Exercícios - Coleções.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\bin\Debug\net10.0\Exercícios - Coleções.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.sourcelink.json
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\refint\Exercícios - Coleções.dll
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.pdb
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\Exercícios - Coleções.genruntimeconfig.cache
+C:\Users\mauri\OneDrive\Documentos\GitHub\Estudos\C# Essencial - Udemy\Exercícios - Coleções\obj\Debug\net10.0\ref\Exercícios - Coleções.dll

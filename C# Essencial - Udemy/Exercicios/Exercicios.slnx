@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="../Exercicios 02/Exercicios 02.csproj" />
   <Project Path="../Exercícios - Classes e Métodos/Exercícios - Classes e Métodos.csproj" Id="abc61153-3c6a-48e5-9233-824b81d0eb42" />
+  <Project Path="../Exercícios - Coleções/Exercícios - Coleções.csproj" Id="c306f4fd-1b63-4c80-85ca-7e6521c028f2" />
   <Project Path="../Exercícios 03/Exercícios 03.csproj" Id="dc2cc12c-b6b7-45d5-8f98-c989f196905e" />
   <Project Path="Exercicios 01.csproj" />
 </Solution>
